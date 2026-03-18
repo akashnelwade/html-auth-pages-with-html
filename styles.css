@@ -1,0 +1,117 @@
+/* 1. Custom Font */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color:hsla(207, 85%, 3%, 0.93);
+    background: rgb(120, 224, 16);
+    min-height:100vh;
+}
+
+
+/* 3. Card Styling */
+
+.card{
+    border:none;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+    background:white;
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+
+/* 4. Button Styling */
+
+.btn-primary{
+    background-color:#1abc9c;
+    border:none;
+    color:white;
+    transition: 0.3s ease;
+}
+
+
+/* Button Hover */
+
+.btn-primary:hover{
+    background-color:#16a085;
+    transform:scale(1.05);
+}
+
+
+/* 5. Link Styling */
+
+a{
+    text-decoration:none;
+    color:#1abc9c;
+    font-weight:500;
+}
+
+
+/* Link Hover */
+
+a:hover{
+    text-decoration:underline;
+    color:#16a085;
+}
+
+
+/* 6. Custom Spacing */
+
+.form-control{
+    padding:10px;
+    border-radius:6px;
+}
+
+.form-control:focus{    
+    border-color:#1abc9c;
+    box-shadow:0 0 5px rgba(26,188,156,0.5);
+}
+
+
+/* 7. Smooth Transitions */
+
+button,a{
+    transition:0.3s ease;
+}
+
+.navbar{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Tablet */
+@media (max-width:1024px){
+
+.card{
+margin:10px;
+}
+
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+h2,h3{
+font-size:22px;
+}
+
+.container{
+padding:15px;
+}
+
+}
+
+/* Small Mobile */
+@media (max-width:480px){
+
+.card{
+padding:10px;
+}
+
+.btn{
+font-size:14px;
+}
+
+}

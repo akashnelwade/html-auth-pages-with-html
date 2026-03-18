@@ -29,6 +29,24 @@ html-auth-pages-with-html/
 ├── dashboard.html
 └── README.md
 
+## Screenshots of UI
+
+### Login Page
+![Login Page](Screenshots/LoginPage.png)
+
+### Registration Page
+![Register Page](Screenshots/RegisterPage.png)
+
+### Forgot Password Page
+![Forgot Password](Screenshots/ForgotPassword.png)
+
+### Reset Password Page
+![Reset Password](Screenshots/ResetPassword.png)
+
+### Dashboard Page
+![Dashboard Page](Screenshots/DashboardPage.png)
+
+
 ##  Author
 
 **Akash Nelwade**
@@ -36,4 +54,3 @@ html-auth-pages-with-html/
 - GitHub: https://github.com/akashnelwade
 - LinkedIn: https://www.linkedin.com/in/nelwade-akash
 
----
